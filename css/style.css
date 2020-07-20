@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: rebeccapurple; */
+  min-height: 1em;
+  transform: translateY(26%);
+}
+
+.logo_logIN {
+  height: 60%;
+  width: 83%;
+  margin-top: 10%;
+  margin-left: 1em;
+}
+
+.c2 {
+  width: 50%;
+}
+
+.login_form {
+  background-color: rgb(0, 174, 255);
+  display: inline-block;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px gray;
+  font-family: "Open Sans", sans-serif;
+}
+
+.logInp {
+  width: 18em;
+  padding: 0.7em;
+  border-radius: 24px;
+  border: 1px solid gray;
+  margin-bottom: 1.5em;
+  font-style: oblique;
+  color: rgb(68, 68, 68);
+  font-weight: 700;
+}
+
+.logInp:focus {
+  outline: none;
+  box-shadow: 0 0 20px 3px rgb(101, 211, 219);
+}
+
+.login_name {
+  text-align: center;
+  margin-bottom: 3em;
+  font-size: 2em;
+  text-transform: capitalize;
+  color: white;
+}
+
+.button {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.button_in {
+  padding: 0.5em 4em;
+  border-radius: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.034);
+  cursor: pointer;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.438);
+}
+
+.button_in:active {
+  background-color: hsl(111, 100%, 66%);
+}
+
+.button_in:focus {
+  outline: none;
+}
+
+.oval_log {
+  background-color: rgb(28, 43, 95);
+  padding: 2em;
+  border-bottom-left-radius: 50% 28%;
+  border-bottom-right-radius: 50% 28%;
+  margin-bottom: 1em;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.placeholderName {
+  transform: translateX(4%);
+  margin-bottom: 0.5em;
+  color: white;
+}
+
+.bgContainer {
+  background-color: rgba(49, 119, 177, 0.37);
+  height: 100vh;
+}
+
+.view.ng-enter {
+  transition: 1s linear all;
+  opacity: 0;
+}
+
+.view.ng-enter.ng-enter-active {
+  opacity: 1;
+}

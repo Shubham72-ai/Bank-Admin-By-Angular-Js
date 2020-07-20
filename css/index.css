@@ -1,0 +1,7 @@
+.view.ng-enter {
+  transition: 1s linear all;
+  transform: translateX(100px);
+}
+.view.ng-enter.ng-enter-active {
+  transform: translateX(0);
+}

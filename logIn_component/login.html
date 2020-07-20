@@ -1,0 +1,43 @@
+<div class="bgContainer">
+  <div class="mainContainer">
+    <div class="c1">
+      <img
+        src="./images/logo/1280px-State_Bank_of_India_logo.svg.png"
+        alt=""
+        class="logo_logIN"
+      />
+    </div>
+    <div class="c2">
+      <div class="login_form">
+        <div class="oval_log">
+          <div class="login_name">log in</div>
+          <div class="placeholderName">Admin Name</div>
+          <div>
+            <input
+              class="logInp"
+              type="text"
+              ng-change="checkCrident()"
+              ng-model="adname"
+            />
+          </div>
+          <div class="placeholderName">Admin Password</div>
+          <div>
+            <input
+              class="logInp"
+              type="password"
+              ng-model="adpass"
+              ng-change="checkCrident()"
+            />
+          </div>
+        </div>
+        <div class="button">
+          <a href="#!/main">
+            <button class="button_in" ng-disabled="check">
+              Log In
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

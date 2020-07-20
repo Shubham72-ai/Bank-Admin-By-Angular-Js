@@ -1,0 +1,63 @@
+<div class="whole_table">
+  <div class="whole_c1">
+    <div class="calender">
+      <div class="calendar__inputs">
+        <input
+          readonly="readonly"
+          type="text"
+          id="calendar-start"
+          placeholder="Start Date"
+          ng-model="date1"
+          ng-change="checkDates()"
+        />
+
+        <input
+          readonly="readonly"
+          type="text"
+          id="calendar-end"
+          placeholder="End Date"
+          ng-model="date2"
+          ng-change="checkDates()"
+        />
+      </div>
+      <div class="calendar__pikaday" id="calendar-container"></div>
+      <button class="calendar__reset" id="calendar-clear" ng-click="rest()">
+        Reset
+      </button>
+      <button
+        class="calendar__reset"
+        style="float: right;"
+        ng-click="SearchDates()"
+        id="calendar_search"
+        ng-disabled="sc"
+      >
+        search
+      </button>
+    </div>
+  </div>
+  <div class="whole_c2">
+    <div class="Tran">Transaction Table Put Dates From Calendar</div>
+    <table ng-style="tble" style="opacity: 0;">
+      <thead>
+        <tr>
+          <th class="th">Name</th>
+          <th>Gender</th>
+          <th>Email</th>
+          <th>Balance</th>
+          <th>Age</th>
+          <th class="th1">Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="x in arr">
+          <td>{{ x.name }}</td>
+          <td>{{ x.gender }}</td>
+          <td>{{ x.email }}</td>
+          <td>{{ x.balance }}</td>
+          <td>{{ x.age }}</td>
+          <td>{{ x.registered }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,131 @@
+body {
+  background-color: #03a9f4;
+}
+.whole_table {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Open Sans", sans-serif;
+}
+
+.whole_c1 {
+  width: 20%;
+  background: #3f51b5;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  height: 20%;
+  border-radius: 0 0 1em 0em;
+}
+
+.whole_c2 {
+  width: 80%;
+  background: #03a9f4;
+  padding: 1em;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  transition: 0.5s all;
+  text-align: center;
+  background-color: purple;
+  border-radius: 1em;
+}
+
+th {
+  background-color: yellow;
+  color: black;
+}
+.th {
+  border-radius: 1em 0 0 0;
+}
+
+.th1 {
+  border-radius: 0 1em 0 0;
+}
+tr {
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+  color: rgb(24, 23, 23);
+}
+
+td,
+th {
+  padding: 1em;
+}
+/* upto this table */
+
+.calender {
+  background-color: skyblue;
+  display: table;
+  border-radius: 1em;
+  box-shadow: 0 0 20px 10px rgba(1, 24, 29, 0.493);
+  padding-bottom: 1em;
+  margin-top: 1em;
+}
+
+.pika-single {
+  /* z-index: 9999; */
+  display: block;
+  /* position: relative; */
+  color: #333;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-bottom-color: #bbb;
+}
+
+.pika-lendar {
+  margin: 8px;
+}
+
+.calendar__inputs {
+  text-align: center;
+  padding: 1em;
+}
+
+#calendar-start,
+#calendar-end {
+  padding: 0.5em;
+  margin-top: 0.5em;
+  border-radius: 1em;
+  border: 0.5px solid rgba(0, 0, 0, 0.253);
+}
+#calendar-start,
+#calendar-end:focus {
+  outline: none;
+}
+
+.calendar__reset {
+  padding: 0.5em 1em;
+  background-color: #03a9f4;
+  color: #f2f2f2;
+  border: none;
+  outline: none;
+  border-radius: 0.3em;
+  box-shadow: 0 0 10px 2px gainsboro;
+}
+
+.calendar__reset:active {
+  background-color: greenyellow;
+}
+
+#calendar-clear {
+  margin-top: 0.5em;
+  margin-left: 1em;
+}
+
+#calendar_search {
+  margin-top: 0.5em;
+
+  margin-right: 1em;
+}
+
+.Tran {
+  text-align: center;
+  color: white;
+  text-decoration: overline;
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}

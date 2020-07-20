@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
+
+.parent_slider {
+  display: flex;
+  justify-content: space-between;
+  min-height: 1em;
+  background-color: var(--blue-rbi);
+  color: var(--jamuni-rbi);
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  border-radius: 0 0 130px 130px;
+  padding-right: 30px;
+}
+
+.container-of-whole {
+  padding: 0em 5em;
+}
+
+.image_slider {
+  background-image: url("../images/sbi_cards/sbi-2-1.jpg");
+  width: 40%;
+  background-size: 100% 100%;
+  border-bottom-left-radius: 130px;
+  border-top-right-radius: 130px;
+
+  animation: myslider 10s infinite;
+}
+
+@keyframes myslider {
+  25% {
+    background-image: url("../images/sbi_cards/ipo.jpg");
+  }
+  50% {
+    background-image: url("../images/sbi_cards/sbi-2-1.jpg");
+  }
+  75% {
+    background-image: url("../images/sbi_cards/bank-eng.jpg");
+  }
+  100% {
+    background-image: url("../images/sbi_cards/sbi-2-1.jpg");
+  }
+}
+
+.side_content {
+  padding: 1em;
+  width: 53%;
+  font-family: "Merienda One", cursive;
+
+  color: white;
+}
+
+.preamble {
+  margin-bottom: 10px;
+}

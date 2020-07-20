@@ -1,0 +1,62 @@
+[
+  {
+    "index": 0,
+    "balance": "$1,995.94",
+    "age": 26,
+    "name": "Potter Eaton",
+    "gender": "male",
+    "email": "pottereaton@coriander.com",
+    "phone": "+1 (955) 460-2523",
+    "registered": "19-07-2020"
+  },
+  {
+    "index": 1,
+    "balance": "$3,720.07",
+    "age": 28,
+    "name": "Antoinette Robbins",
+    "gender": "female",
+    "email": "antoinetterobbins@coriander.com",
+    "phone": "+1 (817) 573-2305",
+    "registered": "19-07-2020"
+  },
+  {
+    "index": 2,
+    "balance": "$2,946.67",
+    "age": 35,
+    "name": "Carmella Delacruz",
+    "gender": "female",
+    "email": "carmelladelacruz@coriander.com",
+    "phone": "+1 (957) 534-2693",
+    "registered": "19-07-2020"
+  },
+  {
+    "index": 3,
+    "balance": "$1,067.13",
+    "age": 33,
+    "name": "Lynn Glover",
+    "gender": "female",
+    "email": "lynnglover@coriander.com",
+    "phone": "+1 (923) 470-2512",
+    "registered": "21-07-2020"
+  },
+  {
+    "index": 4,
+    "balance": "$1,147.00",
+    "age": 20,
+    "name": "Carpenter Mayer",
+    "gender": "male",
+    "email": "carpentermayer@coriander.com",
+    "phone": "+1 (890) 436-2507",
+    "registered": "22-07-2020"
+  },
+  {
+    "index": 5,
+    "balance": "$1,447.93",
+    "age": 32,
+    "name": "Eva Kerr",
+    "gender": "female",
+    "email": "evakerr@coriander.com",
+    "phone": "+1 (832) 511-2654",
+    "registered": "24-07-2020"
+  }
+]

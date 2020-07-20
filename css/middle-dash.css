@@ -1,0 +1,62 @@
+/* #03a9f4  #3f51b5*/
+:root {
+  --primeBlue: #3f51b5;
+  --lightBlue: #03a9f4;
+  --primeWhite: #ecf0f1;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#side-nav li a {
+  color: var(--primeWhite);
+}
+
+#side-nav li a:hover {
+  color: rgb(236, 240, 21);
+  font-weight: bold;
+}
+
+#middle-component-main {
+  display: flex;
+  justify-content: space-between;
+  color: var(--primeWhite);
+  font-family: "Open Sans", sans-serif;
+}
+
+#middle-com-c1 {
+  background: var(--lightBlue);
+  width: 20%;
+}
+
+#middle-com-c2 {
+  width: 80%;
+}
+
+#image-holder {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--primeBlue);
+
+  padding: 1em;
+}
+
+.image-hold {
+  width: 20%;
+  background-color: var(--primeWhite);
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 20px 10px rgba(43, 42, 42, 0.692);
+}
+
+#side-nav {
+  transform: translateX(10%);
+}
+
+#side-nav > li {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}

@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+li a {
+  color: var(--jamuni-rbi);
+}
+
+li a:hover {
+  color: rgb(113, 255, 57);
+}
+
+nav {
+  padding: 1em 2em;
+}
+
+.nav_header nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 4px solid var(--outline);
+  box-shadow: 0px 6px 6px 0px gray;
+  font-family: "Bebas Neue", cursive;
+}
+
+.admin:hover {
+  color: aqua;
+}
+
+.brand {
+  height: 4em;
+  width: 12em;
+}
+
+ul {
+  line-height: 66px;
+}
+
+.nav_ul {
+  font-size: 1.7em;
+  letter-spacing: 0.06em;
+  color: var(--jamuni-rbi);
+}
+
+#search_div {
+  line-height: 66px;
+}
+
+button[type="submit"] {
+  height: 2.1em;
+  padding: 0px 8px;
+  border: 1px solid var(--outline);
+}
+
+input {
+  width: 14em;
+  height: 2em;
+  padding: 0px 0px 0px 8px;
+  border: 1px solid var(--outline);
+  border-radius: 24px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#search {
+  width: 15em;
+  height: 2em;
+  border-radius: 0.2em;
+}
+
+#go_btn {
+  height: 2.2em;
+  width: 2em;
+}
+
+.nav_header {
+  margin-bottom: 1em;
+}
+
+#whole_container {
+  min-height: 3em;
+  background-color: brown;
+}
